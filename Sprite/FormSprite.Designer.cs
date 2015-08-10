@@ -106,6 +106,13 @@
             // openFileDialog
             // 
             this.openFileDialog.FileName = "sprite";
+            this.openFileDialog.Filter = "sprite files (*.sprt)|*.sprt|All files (*.*)|*.*";
+            this.openFileDialog.InitialDirectory = "C:\\Users\\User";
+            // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.Filter = "sprite files (*.sprt)|*.sprt|All files (*.*)|*.*";
+            this.saveFileDialog.InitialDirectory = "C:\\Users\\User";
             // 
             // toolStripButton1
             // 
