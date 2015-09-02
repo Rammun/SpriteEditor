@@ -373,6 +373,11 @@ namespace SpriteSoft
                 graph.Clear();
                 RefreshBitMap();
             }
+        }
+
+        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Программа предназначена для рисования спрайтов и сохранения их в специальном формате. Для последующего использования этих спрайтов в минииграх.");
         }            
     }
 }
